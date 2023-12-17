@@ -11,6 +11,8 @@
 		C68E89902B2F92B7000A9208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68E898F2B2F92B7000A9208 /* ContentView.swift */; };
 		C68E89922B2F92BA000A9208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68E89912B2F92BA000A9208 /* Assets.xcassets */; };
 		C68E89952B2F92BA000A9208 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68E89942B2F92BA000A9208 /* Preview Assets.xcassets */; };
+		C68E899C2B2F92E8000A9208 /* CircularShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68E899B2B2F92E8000A9208 /* CircularShape.swift */; };
+		C68E899E2B2F981E000A9208 /* Circular.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68E899D2B2F981E000A9208 /* Circular.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C68E898F2B2F92B7000A9208 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C68E89912B2F92BA000A9208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C68E89942B2F92BA000A9208 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C68E899B2B2F92E8000A9208 /* CircularShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShape.swift; sourceTree = "<group>"; };
+		C68E899D2B2F981E000A9208 /* Circular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C68E898D2B2F92B7000A9208 /* CircularAppApp.swift */,
 				C68E898F2B2F92B7000A9208 /* ContentView.swift */,
+				C68E899B2B2F92E8000A9208 /* CircularShape.swift */,
+				C68E899D2B2F981E000A9208 /* Circular.swift */,
 				C68E89912B2F92BA000A9208 /* Assets.xcassets */,
 				C68E89932B2F92BA000A9208 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68E899C2B2F92E8000A9208 /* CircularShape.swift in Sources */,
 				C68E89902B2F92B7000A9208 /* ContentView.swift in Sources */,
+				C68E899E2B2F981E000A9208 /* Circular.swift in Sources */,
 				C68E898E2B2F92B7000A9208 /* CircularAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
