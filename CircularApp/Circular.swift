@@ -27,6 +27,7 @@ struct Circular: View {
                     .fill(foregroundColor)
                 
             }
+            .animation(.easeIn(duration: 1.0), value: percentage)
             .padding(lineWidth / 1.5)
         }
         
