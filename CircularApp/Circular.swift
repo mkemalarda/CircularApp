@@ -15,13 +15,24 @@ struct Circular: View {
     let percentage : Double
     
     var body: some View {
-        CircularShape()
-            .stroke(style: StrokeStyle(lineWidth: lineWidth))       // çerçevenin kalınlığını belirler
-            .fill(backgroundColor)                                                 // şeklin güzel gözükmesini sağlar
+        GeometryReader { geometry in
+            
+            ZStack {
+                CircularShape()
+                    .stroke(style: StrokeStyle(lineWidth: lineWidth))       // çerçevenin kalınlığını belirler
+                    .fill(backgroundColor)                                  // şeklin güzel gözükmesini sağlar
+                
+                CircularShape(percent: percentage)
+                    .stroke(style: StrokeStyle(lineWidth: lineWidth))
+                    .fill(foregroundColor)
+                
+            }
+            .padding(lineWidth / 1.5)
+        }
         
     }
 }
 
 #Preview {
-    Circular(lineWidth: 10, backgroundColor: .red, foregroundColor: .black, percentage: 50)
+    Circular(lineWidth: 10, backgroundColor: .red, foregroundColor: .green, percentage: 50)
 }
